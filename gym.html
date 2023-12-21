@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ur Favorite Video</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        h1 {
+            text-align: center;
+        }
+        #buttons {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:darkred">Drool Over Me Please</h1>
+    <div id="buttons"> 
+        <button onclick="playVid()" type="button">Play Video</button>
+        <button onclick="pauseVid()" type="button">Pause Video</button>
+    </div>
+
+            <video id="GymVid" width="512px"><source src="./assets/videos/Gym.mp4" type="video/mp4"></video>
+            
+            <script>
+
+                let vid = document.getElementById("GymVid")
+
+                function playVid() {
+                vid.play()
+                }
+
+                function pauseVid() { 
+                vid.pause(); 
+                } 
+
+            </script>  
+        <h2 style="color:darkred">That's 365 pound btw</h2>
+            <p style="color:darkred">Which means im strong enough to pick you up and slam you on our bed. 😶😉</p>
+</body>
+</html>
