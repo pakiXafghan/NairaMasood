@@ -1,28 +1,49 @@
-html {
-    background-color: pink;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffd9e3; /* Light pink background */
+    color: #ff0000; /* Red text color */
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
-    color: red;
+    margin: 20px 0;
+    color: #ff0000; /* Red text color for the header */
 }
 
-h2 {
-    font-size: 35px;
-    color:red;
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-a {
-    color: red;
-}
-
-ol {
-    color:purple;
-    font-size: 25px;
+#container > div {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ff8080; /* Light red border */
+    border-radius: 10px;
+    background-color: #ffe6f0; /* Light pink background for flex items */
 }
 
 img {
-    border: 5px solid black;
-    width: 500px;
+    max-width: 100%;
+    width: 450px;
+    border-radius: 5px;
+}
+
+h2, ol {
+    color: #ff0000; /* Red text color for headings and ordered list items */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffd9e3; /* Light pink background for the footer */
+    color: #ff0000; /* Red text color for the footer */
 }
