@@ -40,7 +40,7 @@ h2 {
     color: #ff0000;
 }
 
-ol {
+ol, ul {
     color: purple;
 }
 
@@ -48,4 +48,19 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #ffd9e3; /* Light pink background for the footer */
+}
+
+#orange {
+    font-weight: bold;
+    color: orange;
+}
+
+#red {
+    font-weight: bold;
+    color: red;
+}
+
+#black {
+    font-weight: bold;
+    color: black;
 }
