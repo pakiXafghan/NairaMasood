@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Fever</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Philosopher', sans-serif;
+        }
+        body {
+            background-color: gray;
+        }
+        h1 {
+            text-align: center;
+        }
+        #buttons {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:darkred">15 BABIES NOW!!!</h1>
+    <div id="buttons"> 
+        <button onclick="playVid()" type="button">Play Video</button>
+        <button onclick="pauseVid()" type="button">Pause Video</button>
+    </div>
+
+            <video id="BabyVid" width="512px" style="border: white solid 1px;"><source src="./assets/videos/BabyVid.mp4" type="video/mp4"></video>
+            
+            <script>
+
+                let vid = document.getElementById("BabyVid")
+
+                function playVid() {
+                vid.play()
+                }
+
+                function pauseVid() { 
+                vid.pause(); 
+                } 
+
+            </script>  
+        <h2 style="color:darkred">Baby fever activated yet?</h2>
+        <p style="color:darkred">If not, here's more... Ik you'll like this one cuz of my "nice lips" 😉</p>
+            
+        <img src="./assets/images/BabyPic.jpg"  width="350px" style="border: white solid 1px;">
+        <h2 style="color:darkred">Okay so now....</h2>
+        <p style="color:darkred">I know 100% that you got baby fever, so hurry up and marry me so we can start early >:D</p>
+</body>
+</html>
